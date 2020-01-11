@@ -384,8 +384,8 @@ describe('arrow functions. ', () => {
   describe('arrow functions have lexical `this`, no dynamic `this`', () => {
 
     it('bound at definition time, use `=>` ', function() {
-      let bound = new LexicallyBound();
-      let fn = bound.getFunction();
+      let bound = new LexicallyBound()
+      let fn = bound.getFunction()
 
       // expect(fn()).toBe(bound);
     });
